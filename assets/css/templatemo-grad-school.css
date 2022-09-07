@@ -634,7 +634,7 @@ section.coming-soon .continer .counter div {
 section.coming-soon .continer h4 {
     margin-top: 100px;
     font-size: 30px;
-    color: #fff;
+    color: rgb(134, 45, 45);
     font-weight: 800;
     letter-spacing: 0.5px;
     line-height: 40px;
@@ -880,6 +880,80 @@ section.courses .owl-carousel button.active {
 
 
 
+section.team {
+  /* background-image: url(../images/team-bg.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ffffff;
+  padding: 50px 0px;
+}
+
+section.team .left-content {
+color: rgb(0, 0, 0);
+}
+
+section.team .left-content span {
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 0.5px;
+}
+
+section.team .left-content h4 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: rgb(17, 3, 3);
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+section.team .left-content h5 {
+margin-top: 20px;
+font-size: 20px;
+color: rgb(17, 3, 3);
+font-weight: 400;
+letter-spacing: 0.5px;
+line-height: 40px;
+margin-bottom: 30px;
+}
+section.team .left-content h4 em {
+  font-style: normal;
+  color: #f5a425;
+}
+
+section.team .figure{
+  display: inline-block;
+  border: 100px solid green;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+section.team .column {
+  float: left;
+  width: 33%;
+  padding: 20px;
+}
+
+/* Clear floats after image containers */
+section.team.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* section.team .container {
+  float: left;
+}
+
+section.team .image {
+  display: block
+}
+
+section.team .caption {
+  display: block;
+  width: 100%;
+  text-align: center; 
+} */
+
 
 
 /* Video */
@@ -889,7 +963,7 @@ section.video {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ffffff;
-    padding: 120px 0px;
+    padding: 50px 0px;
 }
 
 section.video .left-content {
@@ -909,12 +983,22 @@ section.video .left-content h4 {
     font-weight: 800;
     letter-spacing: 0.5px;
     line-height: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+section.video .left-content h5 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(17, 3, 3);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  margin-bottom: 30px;
 }
 section.video .left-content h4 em {
     font-style: normal;
     color: #f5a425;
 }
+
 
 
 section.video .left-content .main-button {
@@ -1552,7 +1636,7 @@ footer p a:hover {
 @media screen and (max-width: 992px) {
   .features { background-color: #0c1228; }
   .features-content { position: relative; }
-  .features-post { border-left: 0 }
+  .features-post { border-right;: 0 }
 }
 
 @media screen and (max-width: 950px) {
